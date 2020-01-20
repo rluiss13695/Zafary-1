@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    border: 5px solid red;
+}
+
+main{
+    display: block;
+}
+
+.header-principal{
+    border: 4px solid #8d05f5;
+    height: 100px;
+}
+
+.seccion-principal{
+    border: 4px solid cyan;
+    display:grid
+    grid-template-columns: 50% 50%;
+    height: 386px;
+}
+
+.contenido-secundario{
+    border: 3px solid greenyellow;
+}
+.contenido-principal{
+     border: 3px solid blue;
+
+}
+.contenido-principal header{
+    border: 3px solid orangered;
+    height: 70px;
+}
+
+.contenido-principal section{
+    border: 3px solid violet;
+    height: 298px;
+}
+h1, h2, h3{text-align: center;
+
+}
+

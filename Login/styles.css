@@ -1,0 +1,114 @@
+body{
+   margin: 0cm;
+   font-family: Roboto; 
+}
+main{
+    display: grid;
+    width: 500px;
+    height: 400;
+    left: 400px;
+    top: 280px; 
+    background: #f2fcf1;
+    border: 3px solid #c3f1f2;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-left: 560px;
+    margin-top: 200px;
+}
+
+.borde-main:hover{
+    border: 3px solid #5075f3;
+}
+.texto-principal{
+    width: 300px;
+    height: 50px;
+    top: 320px;
+    left: 570px;
+    margin: auto;
+    text-align-last:center;
+    color: #5ad2a5;
+}
+
+.texto-principal:hover{
+    text-decoration: underline;
+    text-decoration-color: #5075f3;
+}
+.ingreso-datos{
+    background: #fffff1;
+    border: 2px solid #c3f1f2;
+    box-sizing: border-box;
+    border-radius: 40px;
+    border-left:50px;
+    margin: 20px;
+}
+.ingreso-datos p{
+    margin-left: inherit;
+    color: #5ad2a5;
+}
+.ingreso-datos input{
+    background: #fffff1;
+    color: #5ad2a5;
+    margin-left: inherit;
+    font-size: medium;
+    border-radius: 40px;
+    padding-left: 20px;
+    margin: 0px;
+    border-left: 50px;
+}
+.datos{
+    -webkit-hyphenate-character: auto;
+    width: 450px;
+    height: 50px;
+    border-top-width: 0px;
+    border-right-width:0px;
+    border-bottom-width:0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+input::placeholder{
+    color: #5ad2a5;
+    opacity: 1;
+}
+.login{
+    background: #5ad2a5;
+    border: 2px solid #469f87;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin: 20px;
+    text-align: center;
+    text-align-last: center;
+    width:-webkit-fill-available;
+}
+.login p:hover{
+    text-decoration: underline;
+    text-decoration-color: #5ad2a5;
+
+}
+.login p{
+    color: #fffff1;
+}
+.login:hover{
+    border: 3px solid #5ad2a5;
+}
+#pie p:hover{
+    text-align: center;
+    text-decoration-color: #5ad2a5;
+    text-align: center;
+}
+#pie{
+    text-align: center;
+    margin-top: 50px;
+    color: #5ad2a5;
+    border-radius: 40px;
+}
+.ingreso-datos:hover{
+    border: 3px solid #13071b;
+}
+.ingreso-datos p:hover{
+    text-decoration: underline;
+    text-decoration-color: #13071b;
+}
+::placeholder:hover{
+    text-decoration: underline;
+    text-decoration-color: #13071b
+}

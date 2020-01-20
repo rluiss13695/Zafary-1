@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script scr="txt.js"></script>
+        <link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Roboto'>
+    </head>
+    <body>
+    <main class="borde-main">
+    <header class="texto-principal">
+        <h1>Ingresa a Zafary</h1>
+    </header>
+    <section>
+        <div class="ingreso-datos">
+            <label for="name"></label>
+            <input class="datos" type="text" id="usuario" placeholder="ingresa tu correo" name="name"required>
+        </div>
+        <div class="ingreso-datos">
+            <label for="pssw"></label>
+            <input class="datos" type="password" id="contraseña" placeholder="ingresa tu contraseña" name="pssw"required>
+        </div>
+        <button class="Login" ondblclick="ValidarUsuario">
+            <p>Login</p>
+        </button>
+    </section>
+    <footer id="pie de pagina">
+        <p>yo❤️❤️a Zafary</p>
+    </footer>
+    </main>
+    <script>
+    $(document).ready(function(){
+        $(".login").mouseover(function(){
+            $(".login").addClass("hover");
+        });
+        $(".login").mouseout(function(){
+            $(".login").removeClass("no-hover");
+        });
+    });
+    </script>
+    </body>
+</html>
