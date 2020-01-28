@@ -1,27 +1,27 @@
 
-const home = document.querySelector('#Home');
-const wazapp = document.querySelector('#wazapp');
+const Home = document.querySelector('#Home');
+const whatzApp = document.querySelector('#whatzApp');
 const Zpotify = document.querySelector('#Zpotify');
 const titulo = document.querySelector('#Titulo');
 
 
-home.addEventListener('click', LlamarHome);
+Home.addEventListener('click', LlamarHome);
 
 function LlamarHome() {
     document.getElementById("iFrame").src = "../Home/index.html";
     titulo.innerHTML = "Zafary<br>La mejor forma<br>de ver los sitios web.";
 }
 
-wazapp.addEventListener('click', LlamarWazapp);
+whatzApp.addEventListener('click', LlamarwhatzApp);
 
-function LlamarWazapp() {
-    document.getElementById("iFrame").src = "../wazapp/index.html";
-    titulo.innerHTML = "WhatzApp";
+function LlamarwhatzApp() {
+    document.getElementById("iFrame").src = "../whatzApp/index.html";
+    titulo.innerHTML = "whatzApp";
 }
 
 Zpotify.addEventListener('click', LlamarZpotify);
 
 function LlamarZpotify() {
-    document.getElementById("iFrame").src = "../zpotify-html/index.html";
+    document.getElementById("iFrame").src = "../Zpotify/index.html";
     titulo.innerHTML = "Zpotify";
 }
