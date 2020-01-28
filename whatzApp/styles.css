@@ -1,0 +1,61 @@
+
+.caja-body {  
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+.caja-principal {
+    grid-template-columns: 30% 70%;
+    height: 100%;
+    justify-content: center;
+    display: grid;
+    grid-auto-flow: column;
+    border-style: solid;
+    border-width: 1px;
+}
+.caja-1 {
+    text-align: center;
+    height: 90%;
+    display: grid;
+    border-style: solid;
+    border-width: 3px;
+    border-color: limegreen;
+}
+.caja-2 {
+    border: solid;
+    border-width: 2px;
+    border-color: blue;
+}
+.Name {
+    border-style: solid;
+    border-width: 2px;
+    border-color: cyan;
+}
+.caja-3 {
+    display: table-header-group;
+    border-color: purple;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+}
+.caja-4 {
+    height: 15%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+}
+.caja-chat {
+    height: 65%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orchid;
+}
+.caja-comentario {
+    height: 18%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: green;
+}
