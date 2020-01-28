@@ -3,7 +3,7 @@ function validacionUsuario(){
     var password = document.getElementById("contraseña").value;
     if ( username == "ejemplo@gmail.com" && password == "123456"){
         console.log ("Iniciando sesión…");
-        //window.location = "success.html"; 
+        //window.location = "..Home/Home.html"; 
         return false;
     }else{
         console.log("Email y/o contraseña incorrectos");
